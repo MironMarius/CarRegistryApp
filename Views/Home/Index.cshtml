@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Car Registry App!</h1>
+   <div class="col-md-4" style="font-weight-bolder">
+   <div class="btn-success">
+       <a asp-action="Create" asp-controller="Car">Add car</a>
+   </div>
+    </div>
+    <br /><br /><br />
+    <div class="col-md-4">
+    <div class="btn-danger">
+        <a asp-action="Index" asp-controller="Car">Car list</a>
+    </div>
+</div>
+</div>
