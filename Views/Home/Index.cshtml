@@ -3,16 +3,19 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome to the Car Registry App!</h1>
-   <div class="col-md-4" style="font-weight-bolder">
-   <div class="btn-success">
-       <a asp-action="Create" asp-controller="Car">Add car</a>
-   </div>
+    <h2 class="display-4">Welcome !</h2>
     </div>
-    <br /><br /><br />
-    <div class="col-md-4">
-    <div class="btn-danger">
-        <a asp-action="Index" asp-controller="Car">Car list</a>
-    </div>
-</div>
-</div>
+    <br /><br />
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item font-weight-bolder text-black-50"><a>Home page</a> 
+                  <br /><br />
+                  <a class="btn btn-outline-success font-weight-bold " asp-action="AddOrEdit" asp-controller="Car"> Add new car</a> 
+                  <br /><br />
+                  <a class="btn btn-outline-success font-weight-bold" asp-action="Index" asp-controller="Car"> View car list</a></li>
+              </ol>
+              
+              
+
+
+
+
